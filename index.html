@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+    <div>
+        <h1>Text Editor</h1>
+    </div>
+    <div class="btns">
+        <ul type="none">
+            <li>
+                <button class="btn" id="boldbtn" onclick="b1()"><i class="fa fa-bold fa-2x"></i></button>
+            </li>
+            <li>
+                <button class="btn" id="italicbtn" onclick="b2()"><i class="fa fa-italic fa-2x"></i></button>
+            </li>
+            <li>
+                <button class="btn" id="leftbtn" onclick="b3()"><i class="fa fa-align-left fa-2x"></i></button>
+            </li>
+            <li>
+                <button class="btn" id="midbtn" onclick="b4()"><i class="fa fa-align-center fa-2x"></i></button>
+            </li>
+            <li>
+                <button class="btn" id="rightbtn" onclick="b5()"><i class="fa fa-align-right fa-2x"></i></button>
+            </li>
+            <li>
+                <button class="btn" onclick="b6()"><i class="fa fa-trash fa-2x"></i></button>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <textarea name="" id="txtarea" cols="100" rows="25" placeholder="Write Here..."></textarea>
+    </div>
+
+    <script src="editor.js"></script>
+</body>
+</html>
