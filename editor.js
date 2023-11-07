@@ -43,3 +43,25 @@ function b5(){
 function b6(){
     document.getElementById("txtarea").value="";
 }
+
+function b7(){
+    document.getElementById("txtarea").style.fontSize=".7rem";
+
+    document.getElementById("fontsmall").style.backgroundColor="rgb(142, 238, 206)";
+    document.getElementById("fontmid").style.backgroundColor="aquamarine";
+    document.getElementById("fontbig").style.backgroundColor="aquamarine";
+}
+function b8(){
+    document.getElementById("txtarea").style.fontSize=".833rem";
+
+    document.getElementById("fontsmall").style.backgroundColor="aquamarine";
+    document.getElementById("fontmid").style.backgroundColor="rgb(142, 238, 206)";
+    document.getElementById("fontbig").style.backgroundColor="aquamarine";
+}
+function b9(){
+    document.getElementById("txtarea").style.fontSize="1rem";
+
+    document.getElementById("fontsmall").style.backgroundColor="aquamarine";
+    document.getElementById("fontmid").style.backgroundColor="aquamarine";
+    document.getElementById("fontbig").style.backgroundColor="rgb(142, 238, 206)";
+}
